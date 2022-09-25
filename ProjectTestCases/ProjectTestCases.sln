@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectTestCases", "ProjectTestCases\ProjectTestCases.vcxproj", "{0D235E8C-0278-42BA-9CDD-B33EB52E20C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43920304-57FE-4A54-8629-147C2555B788} = {43920304-57FE-4A54-8629-147C2555B788}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackBoxTestLibrary", "BlackBoxDLL\BlackBoxDLL.vcxproj", "{43920304-57FE-4A54-8629-147C2555B788}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackBoxDLL", "BlackBoxDLL\BlackBoxDLL.vcxproj", "{43920304-57FE-4A54-8629-147C2555B788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
