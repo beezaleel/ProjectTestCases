@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectTestCases", "ProjectTestCases\ProjectTestCases.vcxproj", "{0D235E8C-0278-42BA-9CDD-B33EB52E20C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackBoxTestLibrary", "BlackBoxDLL\BlackBoxDLL.vcxproj", "{43920304-57FE-4A54-8629-147C2555B788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{0D235E8C-0278-42BA-9CDD-B33EB52E20C6}.Release|x64.Build.0 = Release|x64
 		{0D235E8C-0278-42BA-9CDD-B33EB52E20C6}.Release|x86.ActiveCfg = Release|Win32
 		{0D235E8C-0278-42BA-9CDD-B33EB52E20C6}.Release|x86.Build.0 = Release|Win32
+		{43920304-57FE-4A54-8629-147C2555B788}.Debug|x64.ActiveCfg = Debug|x64
+		{43920304-57FE-4A54-8629-147C2555B788}.Debug|x64.Build.0 = Debug|x64
+		{43920304-57FE-4A54-8629-147C2555B788}.Debug|x86.ActiveCfg = Debug|Win32
+		{43920304-57FE-4A54-8629-147C2555B788}.Debug|x86.Build.0 = Debug|Win32
+		{43920304-57FE-4A54-8629-147C2555B788}.Release|x64.ActiveCfg = Release|x64
+		{43920304-57FE-4A54-8629-147C2555B788}.Release|x64.Build.0 = Release|x64
+		{43920304-57FE-4A54-8629-147C2555B788}.Release|x86.ActiveCfg = Release|Win32
+		{43920304-57FE-4A54-8629-147C2555B788}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
