@@ -119,12 +119,39 @@ TEST(DivisionSuite, Divide_7_by_0) {
 	EXPECT_EQ(-1, Divide(7, 0));
 }
 
-TEST(FibonacciTests, Fib8) {
-	EXPECT_EQ(21, Fibonacci(8));
+// Array suite
+TEST(ArraySuite, MinimumNumber) {
+	int numbers[5] = { 7, 3, 9, 1, 20 };
+	EXPECT_EQ(1, FindMinimumNumber(numbers, 5));
+
+	int negativeNumbers[6] = { -3, -45, -29, -100, -74, -8 };
+	EXPECT_EQ(-100, FindMinimumNumber(negativeNumbers, 6));
 }
 
-TEST(FibonacciTests, FibNegativeOne) {
-	EXPECT_EQ(-1, Fibonacci(-1));
+// Circle Suite
+TEST(CircleSuite, Area) {
+	EXPECT_EQ(314.159, AreaOfACirle(10));
+	EXPECT_EQ(6647.61, AreaOfACirle(46));
+}
+
+// Square Suite
+TEST(SquareSuite, Perimeter) {
+	EXPECT_EQ(40, PerimeterOfASquare(10));
+	EXPECT_EQ(184, PerimeterOfASquare(46));
+}
+
+// Cube Suite
+TEST(CubeSuite, Volume) {
+	EXPECT_EQ(125, VolumeOfACube(5));
+	EXPECT_EQ(27, VolumeOfACube(3));
+}
+
+// Statistic Suite
+TEST(StatisticSuite, Mean) {
+	int numbers[7] = { 2, 4, 6, 8, 10, 12, 14 };
+	int oldNumbers[7] = { 1, 3, 5, 7, 9, 11, 13 };
+	EXPECT_EQ(56, Mean(numbers, 7));
+	EXPECT_EQ(49, Mean(oldNumbers, 7));
 }
 
 int main(int argc, char** argv) {
